@@ -1,3 +1,10 @@
+"""
+Student class for managing student grades.
+
+This class handles storing student names and scores, calculating statistics such as highest,
+lowest, and average scores, and determining the grade based on the highest score.
+"""
+
 class Student:
     def __init__(self, name: str, scores: list[int]):
         self.__name = name

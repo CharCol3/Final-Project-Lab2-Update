@@ -3,6 +3,13 @@ from tkinter import messagebox
 from student import Student
 from data_handling import save_scores
 
+"""
+Grade Application GUI.
+
+This class manages the graphical user interface for the grade calculator application.
+It allows for input of student names and scores, calculation of grades, and displays the results.
+"""
+
 class GradeApp(tk.Tk):
     def __init__(self):
         super().__init__()
